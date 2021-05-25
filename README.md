@@ -23,5 +23,7 @@ done
 head -n1 z_all.txt > zzz_all.txt;
 
 grep -v "ORF" z_all.txt >> zzz_all.txt;
-##各材料的gtf、txt文件顺序对应，想将其写入一个文件（txt有表头注意去掉），在通过加编号去冗余
+
+#各材料的gtf、txt文件顺序对应，先将其写入一个文件（txt有表头注意去掉），在通过加编号去冗余
+
 python3 zzz_merge.py
