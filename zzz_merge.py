@@ -1,3 +1,6 @@
+# 千万不要再傻乎乎地在pandas里面写for循环，记住用map、apply、applymap三大函数！！！！！！
+
+
 import pandas as pd
 import csv
 
