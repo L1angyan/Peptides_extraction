@@ -16,7 +16,7 @@ gtf=${name}gtf;
 
 cat $i >> z_all.txt;
 
-cat $gtf >>　zzz_all.gtf;
+cat $gtf >>　z_all.gtf;
 
 done
 
